@@ -50,10 +50,10 @@ public class SortHelper {
 	
 	public void printArray(int []array,int size)
 	{
-		if(size==0)
-			size=array.length;
-		for(int i=0;i<size;i++)
-			System.out.print(array[i]+" ");
+		if(size == 0)
+			size = array.length;
+		for(int i = 0; i < size; i++)
+			System.out.print(array[i] + " ");
 		System.out.println();
 	}
 
