@@ -43,7 +43,7 @@ public class Transaction {
 	public void checkTargetAchievements() {
 		insertValues();
 		while (targetToAchieve-- > 0) {
-			System.out.print("Enter the value of target: ");
+			System.out.print("\nEnter the value of target: ");
 			long target = scanner.nextLong();
 			int transReqToSecureTarget = getTransactionsRequiredToSecureTarget(target); // returns -1 if target is not
 																						// achieved

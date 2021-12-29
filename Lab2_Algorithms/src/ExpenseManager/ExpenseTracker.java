@@ -28,8 +28,6 @@ public class ExpenseTracker {
 		}
 
 		sortHelper.mergeSort(currencyDenominations, 0, curDenominationSize - 1);
-//		System.out.print("Sorted Currency Denominations - ");
-//		sortHelper.printArray(currencyDenominations, curDenominationSize);
 	}
 
 	public void calculateExpenseDenominations() {
